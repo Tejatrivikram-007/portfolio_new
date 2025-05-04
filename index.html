@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>Photographer Portfolio</title>
+  </head>
+  <body style="scroll-behavior: smooth;">
+
+    <!-- -----------------------------<< Navbar >>------------------------ -->
+ 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+     <div class="container-fluid">
+       <a class="navbar-brand" href="#">
+         <img
+           src="./assets/images/general/logo.png"
+           alt="Logo"
+           style="width: 150px; height: auto"
+           class="logo"
+         />
+       </a>
+       <button
+         class="navbar-toggler"
+         type="button"
+         data-bs-toggle="collapse"
+         data-bs-target="#navbarNavAltMarkup"
+         aria-controls="navbarNavAltMarkup"
+         aria-expanded="false"
+         aria-label="Toggle navigation"
+       >
+         <span class="navbar-toggler-icon"></span>
+       </button>
+   
+       <div
+         class="collapse navbar-collapse justify-content-end"
+         id="navbarNavAltMarkup"
+       >
+         <div class="navbar-nav">
+           <a class="nav-link active" aria-current="page" href="#home">Home</a>
+           <a class="nav-link" href="#the-art">About</a>
+           <a class="nav-link" href="#gallery">Gallery</a>
+           <!-- <a class="nav-link" href="#testimonies">Testimonies</a> -->
+           <a class="nav-link" href="#contact">Contact</a>
+   
+           <!-- Only visible on mobile -->
+           <a class="nav-link nav-help d-lg-none" href="#" data-bs-toggle="modal" data-bs-target="#quizModal">Find Your Style</a>
+         </div>
+       </div>
+     </div>
+   </nav>
+   
+ 
+   <!-- -----------------------<< HERO >>--------------------------- -->
+   <section id="home" data-aos="fade-right">
+     <div class="home_container">
+       <div class="left_container">
+         <!-- <img src="/harshini-B5eSoIaW.jpg" alt="Harshini C Raj" class="pic"> -->
+       </div>
+   
+       <div class="right_container">
+         <div class="right_content">
+           <h1 class="hero_heading">Harshini C Raj</h1>
+           <h3 class="hero_subheading">Photographer | Videographer | Editor</h3>
+           <p class="hero_desc">
+             Capturing stories through the lens—portraits, lifestyle, and moments that speak for themselves. I turn emotions into timeless visuals with the art of photography, cinematic videography, and seamless editing.
+           </p>
+           <a href="#portfolio" class="hero_btn">View Portfolio</a>
+         </div>
+       </div>
+     </div>
+   </section>
+ 
+   <!-- -----------------------<< ABOUT SECTION >>--------------------------- -->
+ 
+   <section id="the-art" class="about_section mt-5 mb-5" data-aos="fade-up">
+     <div class="container-fluid art-container">
+         <div class="row art-row">
+           <!-- Left Column -->
+           <div class="col-md-6 art-column">
+             <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                  alt="Videographer shooting with professional camera" 
+                  class="image-medium-square" />
+             <h1 class="art-title">CAPTURING<br>YOUR STORY</h1>
+           </div>
+   
+           <!-- Right Column -->
+           <div class="col-md-6 art-column">
+             <p class="art-description">
+               I'm Harshini, a passionate photographer and videographer who captures life's most authentic moments. With a strong focus on lifestyle, portraits, and creative storytelling, I mix light, composition, and raw emotion to craft beautiful narratives.
+             </p>
+             <p class="art-description">
+               Equipped with top-of-the-line Mirrorless camera gear, I also specialize in post-production techniques using tools like Adobe Lightroom, Photoshop, and Premiere Pro. Every project is unique, whether it’s capturing candid moments or creating a visually styled shoot—my goal is to make each frame unforgettable.
+             </p>
+             <img src="./assets/images/general/about_me.jpg" 
+                  alt="Photographer editing video footage" 
+                  class="image-medium-square" />
+           </div>
+         </div>
+       </div>
+   </section>
+ 
+   <!-- ==================== GALLERY SECTION ==================== -->
+   
+   <section class="gallery_section mt-5 mb-5" id="gallery" data-aos="fade-right">
+    <div class="container">
+      <div class="row">
+        <!-- Left Column - Text -->
+        <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center text-center" style="min-height: 100%;">
+          <h2 class="section-title">
+            Creative<br>
+            <span style="font-size: 2em; color: #6c63ff;">Showcase</span>
+          </h2>
+          <p class="intro-text">
+            Discover how we turn moments into masterpieces, capturing the soul of every scene.
+          </p>
+        </div>
+  
+        <!-- Right Column - Work Items -->
+        <div class="col-lg-7">
+          <div class="work-item" data-category="automobiles" style="background-image: url('https://th.bing.com/th/id/OIP.c1tx-MTZsVMl9TnHgqrYEgHaE8?rs=1&pid=ImgDetMain')">
+            <div class="work-item-content">
+              <div class="work-number">01</div>
+              <h3 class="work-title">AUTOMOBILE</h3>
+              <p class="work-description">Showcasing the beauty and engineering of classic and modern vehicles in stunning detail.</p>
+            </div>
+          </div>
+  
+          <div class="work-item" data-category="adventure" style="background-image: url('https://i.ytimg.com/vi/9Bez9mPyl0I/maxresdefault.jpg')">
+            <div class="work-item-content">
+              <div class="work-number">02</div>
+              <h3 class="work-title">ADVENTURE</h3>
+              <p class="work-description">Capturing thrilling moments from extreme sports and outdoor expeditions around the globe.</p>
+            </div>
+          </div>
+  
+          <div class="work-item" data-category="festival" style="background-image: url('https://d2ljoqkkoec4f6.cloudfront.net/wp-content/uploads/2021/06/09121303/mf3.jpg')">
+            <div class="work-item-content">
+              <div class="work-number">03</div>
+              <h3 class="work-title">FESTIVAL</h3>
+              <p class="work-description">Immersive coverage of cultural celebrations and music festivals across continents.</p>
+            </div>
+          </div>
+  
+          <div class="work-item" data-category="street" style="background-image: url('https://th.bing.com/th/id/OIP.GkKBiS9BVvtkQqqPC_bMQAHaEK?rs=1&pid=ImgDetMain')">
+            <div class="work-item-content">
+              <div class="work-number">04</div>
+              <h3 class="work-title">STREET</h3>
+              <p class="work-description">Documenting the raw energy and untold stories of urban life in major cities worldwide.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Discover the Magic I Created</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-12">
+              <h5 class="mb-3">Images</h5>
+              <div class="row" id="imageGalleryContent"></div>
+            </div>
+            <div class="col-12 mt-4">
+              <h5 class="mb-3">Videos</h5>
+              <div class="row" id="videoGalleryContent"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    const categoryMedia = {
+      adventure: [
+        { type: 'image', src: 'https://i.pinimg.com/736x/25/a3/4d/25a34d971bdda863e9ceec6f9891184c.jpg' },
+        { type: 'image', src: 'https://i.pinimg.com/736x/26/ef/1a/26ef1abaa2190af010ffbf687e35b19c.jpg' },
+        { type: 'image', src: 'https://i.pinimg.com/736x/4c/b1/60/4cb160642633cd81d33a23da58e59b70.jpg' },
+        { type: 'image', src: 'https://i.pinimg.com/736x/f6/b1/7d/f6b17d2c805f96d8535ff286f6d997a9.jpg' },
+        { type: 'image', src: 'https://i.pinimg.com/736x/11/1a/5c/111a5c70f6d53ea087bff0cd2fdf9b24.jpg' },
+        { type: 'video', src: 'https://www.w3schools.com/html/mov_bbb.mp4' },
+        { type: 'video', src: 'https://www.w3schools.com/html/movie.mp4' },
+      ],
+      street: [
+        { type: 'image', src: 'https://i.pinimg.com/736x/d2/59/da/d259da05bb26cfda7929828ad8350651.jpg' },
+        { type: 'image', src: 'https://i.pinimg.com/736x/96/8d/8c/968d8c4ae39ec7846a6e2bfc877449a4.jpg' },
+        { type: 'video', src: 'https://www.w3schools.com/html/movie.mp4' },
+        { type: 'video', src: 'https://www.w3schools.com/html/mov_bbb.mp4' },
+      ],
+      festival: [
+        { type: 'image', src: 'https://i.imgur.com/7ISh4OK.jpg' },
+        { type: 'image', src: 'https://i.imgur.com/L7bJvdl.jpg' },
+        { type: 'video', src: 'https://www.w3schools.com/html/mov_bbb.mp4' },
+        { type: 'video', src: 'https://www.w3schools.com/html/movie.mp4' },
+      ],
+      automobiles: [
+        { type: 'image', src: 'https://i.pinimg.com/736x/45/a9/be/45a9bee47ebf676c88b405208093c2c8.jpg' },
+        { type: 'image', src: 'https://i.pinimg.com/736x/90/05/e0/9005e0f297b6df111812cf4ac87c7689.jpg' },
+        { type: 'video', src: 'https://www.w3schools.com/html/movie.mp4' },
+        { type: 'video', src: 'https://www.w3schools.com/html/mov_bbb.mp4' },
+      ]
+    };
+  
+    function openGallery(category) {
+      const mediaItems = (categoryMedia[category] || []).sort(() => 0.5 - Math.random());
+      const imageGallery = document.getElementById('imageGalleryContent');
+      const videoGallery = document.getElementById('videoGalleryContent');
+  
+      imageGallery.innerHTML = '';
+      videoGallery.innerHTML = '';
+  
+      mediaItems.forEach(item => {
+        const rotation = Math.floor(Math.random() * 20 - 10);
+        if (item.type === 'image') {
+          imageGallery.innerHTML += `
+            <div class="col-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
+              <div class="photo-frame" style="transform: rotate(${rotation}deg);">
+                <img src="${item.src}" alt="Gallery Image" class="img-fluid rounded">
+              </div>
+            </div>`;
+        } else if (item.type === 'video') {
+          videoGallery.innerHTML += `
+            <div class="col-12 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
+              <div class="photo-frame" style="transform: rotate(${rotation}deg);">
+                <video controls class="img-fluid rounded" style="width: 100%; height: auto;">
+                  <source src="${item.src}" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>`;
+        }
+      });
+  
+      const modal = new bootstrap.Modal(document.getElementById('galleryModal'));
+      modal.show();
+    }
+  
+    function getQueryParam(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+  
+    document.addEventListener('DOMContentLoaded', () => {
+      const category = getQueryParam('category');
+      if (category && categoryMedia.hasOwnProperty(category)) {
+        openGallery(category);
+      }
+  
+      document.querySelectorAll('.work-item').forEach(item => {
+        item.style.cursor = 'pointer';
+        item.addEventListener('click', () => {
+          const category = item.getAttribute('data-category');
+          if (category && categoryMedia.hasOwnProperty(category)) {
+            openGallery(category);
+          }
+        });
+      });
+    });
+  </script>
+  
+     <!-- ----------------------------<< Behind the Lens: My Photography Process >>---------------------------- -->
+   <section id="photography-process" data-aos="fade">
+         <div class="container">
+           <h2 class="section-title text-center" style="margin: 20px;">Behind the Lens: My Photography Process</h2>
+           <div class="row">
+             <div class="col-md-4">
+               <div class="process-step">
+                 <img src="https://i.pinimg.com/736x/0d/15/fb/0d15fb421f3a715c415815ad39604aeb.jpg" alt="Step 1">
+                 <div>
+                   <h4>Consultation</h4>
+                   <p style="color: rgb(168, 146, 146);">We start by discussing your vision for the shoot, including location, style, and mood.</p>
+                 </div>
+               </div>
+             </div>
+             <div class="col-md-4">
+               <div class="process-step">
+                 <img src="https://i.pinimg.com/736x/c6/0f/d9/c60fd9aff016d5dacc5e707ffbb29dc6.jpg" alt="Step 2">
+                 <div>
+                   <h4>Photoshoot</h4>
+                   <p style="color:  rgb(168, 146, 146);">During the shoot, I focus on capturing authentic moments while bringing your vision to life.</p>
+                 </div>
+               </div>
+             </div>
+             <div class="col-md-4">
+               <div class="process-step">
+                 <img src="https://i.pinimg.com/736x/06/ca/34/06ca34c8c416a8a89e7e17c278289ac3.jpg" alt="Step 3">
+                 <div>
+                   <h4>Editing</h4>
+                   <p style="color:  rgb(168, 146, 146);">After the shoot, I carefully edit and perfect your photos, bringing out their full potential.</p>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </section>
+ 
+  <!-- ----------------------------<< Marquee conatiner >>---------------------------- -->
+ 
+  <div class="marquee-container">
+     <p class="bonus-text mt-4 marquee-text">
+       <i class="fas fa-bullhorn"></i> 
+       <strong>Bonus Perk:</strong> Get your very own personalized website — beautifully crafted to showcase your memories. Easily view, relive, and share your special moments with family and friends, anytime, anywhere!
+     </p>
+   </div>
+       
+  <!-- ----------------------------<< Featured Projects >>---------------------------- -->
+  <section id="featured-projects" data-aos="fade-up">
+     <div class="container">
+       <h2 class="section-title text-center">Featured Projects</h2>
+       <div class="row">
+         <div class="col-md-4">
+             <div class="project-card">
+                 <img src="https://i.pinimg.com/736x/2f/db/6e/2fdb6eb3db00cc4a394594e371d26add.jpg" alt="Personal Photography Project" class="project-img">
+                 <h4 class="project-title">Personal Photography</h4>
+                 <p class="project-description">Capturing the love, joy, and beauty of a person's special day in a timeless and elegant style.</p>
+             </div>            
+         </div>
+         <div class="col-md-4">
+             <div class="project-card">
+               <img src="https://i.pinimg.com/736x/81/ac/91/81ac910068bd49720865f0b20510d1dd.jpg" alt="Motor Bike Photoshoot">
+               <h4>Motor Bike Photoshoot</h4>
+               <p>Bold shots capturing your bike’s style and power in action.</p>
+             </div>
+           </div>
+           
+           
+         <div class="col-md-4">
+           <div class="project-card">
+             <img src="https://i.pinimg.com/736x/39/14/64/3914640839f31b30a16106ef73183e6f.jpg" alt="Project 3">
+             <h4>Event Photography</h4>
+             <p>Capturing the essence and energy of your events, from parties to conferences and more.</p>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+ 
+   <!-- ----------------------------<< Time-Lapse/Behind-the-Scenes Video >>---------------------------- -->
+   <section id="behind-the-scenes" data-aos="fade-up">
+     <div class="container">
+       <h2 class="section-title text-center">Behind the Scenes</h2>
+       <div class="video-section">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+       </div>
+     </div>
+   </section>
+ 
+   <!-- ----------------------------<< Testimonies >>---------------------------- -->
+   <section class="testimonial-section" id="testimonies" data-aos="fade-up">
+     <div class="container">
+         <h2 class="section-title text-center">What People Say</h2>
+         <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+             <div class="carousel-inner">
+ 
+                 <div class="carousel-item active">
+                     <div class="testimonial-card">
+                         <div class="testimonial-card-body">
+                             <img src="./assets/images/testimonies/teja.jpg" alt="John Doe" class="testimonial-image">
+                             <div class="testimonial-info">
+                                 <p class="testimonial-content">"The experience working with this photographer was amazing! They captured moments that I will cherish forever."</p>
+                                 <p class="testimonial-author">Teja Trivikram V.</p>
+                                 <p class="testimonial-role">Fullstack Freelancer</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+     
+                 <div class="carousel-item">
+                     <div class="testimonial-card">
+                         <div class="testimonial-card-body">
+                             <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="Jane Smith" class="testimonial-image">
+                             <div class="testimonial-info">
+                                 <p class="testimonial-content">"The photos exceeded our expectations! We are so pleased with the quality and creativity of the shots!"</p>
+                                 <p class="testimonial-author">Jane Smith</p>
+                                 <p class="testimonial-role">Event Manager at ABC Inc.</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+               
+                 <div class="carousel-item">
+                     <div class="testimonial-card">
+                         <div class="testimonial-card-body">
+                             <img src="https://randomuser.me/api/portraits/men/20.jpg" alt="Mark Johnson" class="testimonial-image">
+                             <div class="testimonial-info">
+                                 <p class="testimonial-content">"Incredible talent and professionalism. The photographer made our day unforgettable with stunning images."</p>
+                                 <p class="testimonial-author">Mark Johnson</p>
+                                 <p class="testimonial-role">Marketing Executive at LMN Ltd.</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 
+                 <div class="carousel-item">
+                     <div class="testimonial-card">
+                         <div class="testimonial-card-body">
+                             <img src="https://randomuser.me/api/portraits/women/24.jpg" alt="Samantha Lee" class="testimonial-image">
+                             <div class="testimonial-info">
+                                 <p class="testimonial-content">"Working with this photographer was a true pleasure! They truly understand the art of capturing emotions."</p>
+                                 <p class="testimonial-author">Samantha Lee</p>
+                                 <p class="testimonial-role">Entrepreneur & Blogger</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+ 
+             <!-- Carousel Controls -->
+             <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                 <span class="visually-hidden">Previous</span>
+             </button>
+             <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                 <span class="visually-hidden">Next</span>
+             </button>
+         </div>
+     </div>
+ </section>
+ 
+ <!-- =================== Contact Section =================== -->
+ <div class="contact-section" id="contact">
+     <div class="left-image">
+       <img src="./assets/images/general/contact_me.jpg" alt="Contact Image"> 
+     </div>
+   
+     <div class="right-content">
+       <div class="get-in-touch">Get in Touch</div>
+       <div class="contact-info">
+         <span class="contact-label"><i class="bi bi-phone"></i>MOBILE NUMBER</span>
+         <span class="contact-value">+91- 88677 39212</span>
+       </div>
+   
+       <div class="contact-info">
+         <span class="contact-label"><i class="bi bi-envelope-fill"></i>EMAIL ADDRESS</span>
+         <span class="contact-value email">harshi_clicks@gamil.com</span>
+       </div>
+   
+       <div class="social-links">
+         <a href="https://facebook.com" target="_blank" class="bi bi-facebook"></a>
+         <!-- <a href="https://twitter.com" target="_blank" class="bi bi-twitter"></a> -->
+         <a href="https://instagram.com" target="_blank" class="bi bi-instagram"></a>
+         <a href="https://youtube.com" target="_blank" class="bi bi-youtube"></a> 
+         <a href="https://www.pinterest.com" target="_blank" class="bi bi-pinterest"></a> 
+         <a href="https://wa.me/8867739212" target="_blank" class="bi bi-whatsapp"></a> 
+       </div>
+   
+   
+       <a href="harshi_clicks@gamil.com" class="contact-button">Contact Us</a>
+     </div>
+   </div>
+ 
+    <!-- =================== Footer =================== -->
+ <footer class="bg-dark text-light py-4 mt-5">
+     <div class="container text-center">
+       <!-- Social Icons -->
+       <!-- <div class="mb-3">
+         <a href="#" class="text-light me-3 fs-5"><i class="bi bi-instagram"></i></a>
+         <a href="#" class="text-light me-3 fs-5"><i class="bi bi-facebook"></i></a>
+         <a href="#" class="text-light me-3 fs-5"><i class="bi bi-twitter"></i></a>
+         <a href="#" class="text-light fs-5"><i class="bi bi-youtube"></i></a>
+       </div> -->
+   
+       <!-- Footer Text -->
+       <p class="mb-0 small">
+         &copy; 2025 <strong>Harshi_Clicks</strong>. All rights reserved. <br>
+         Designed with <i class="bi bi-heart-fill text-danger"></i> by Harshini C Raj
+       </p>
+     </div>
+   </footer>
+  <!-- ----------------------------<< Photography Style Quiz >>---------------------------- -->
+  
+  <a href="#" class="quiz-help" 
+  data-bs-toggle="modal" 
+  data-bs-target="#quizModal" 
+  title="Find your style" 
+  data-bs-placement="left" 
+  data-bs-trigger="hover" 
+  data-bs-html="true" 
+  data-bs-custom-class="tooltip-dark" 
+  data-bs-delay='{"show": 200, "hide": 100}'>
+ <i class="fas fa-question"></i> 
+</a>
+
+
+<!-- Quiz Modal -->
+<div class="modal fade" id="quizModal" tabindex="-1" aria-labelledby="quizModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="quizModalLabel" style="color: black;">📸 Discover Your Photography Style</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="color: black;">
+        <p class="mb-3">
+          Embark on a journey to uncover the photography style that best aligns with your personality and creative vision. Answer a few questions, and we'll reveal your personalized style, accompanied by visual examples to inspire you.
+        </p>
+        <form id="quiz-form"></form>
+
+        <div id="quiz-result" class="quiz-result text-center" style="display: none;">
+          <p>Your personalized photography style is: <span id="result-style"></span></p>
+        </div>
+
+        <div id="image-result" class="text-center" style="display: none;">
+          <p>Your personalized image:</p>
+          <img id="generated-image" src="" alt="Generated Style" style="max-width: 100%; border-radius: 8px;" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  
+  const questions = [
+    {
+      question: "What type of photos do you prefer taking?",
+      options: [
+        { answer: "Adventure", style: "Adventure" },
+        { answer: "Street", style: "Street" },
+        { answer: "Portrait", style: "Portrait" },
+        { answer: "Nature", style: "Nature" }
+      ]
+    },
+    {
+      question: "Which mood do you want to evoke in your images?",
+      options: [
+        { answer: "Cinematic", style: "Cinematic" },
+        { answer: "Vibrant", style: "Vibrant" },
+        { answer: "Moody", style: "Moody" },
+        { answer: "Light and Airy", style: "Light and Airy" }
+      ]
+    },
+    {
+      question: "What kind of color palette do you gravitate toward?",
+      options: [
+        { answer: "Warm and Earthy", style: "Warm and Earthy" },
+        { answer: "Bright and Bold", style: "Bright and Bold" },
+        { answer: "Cool and Calm", style: "Cool and Calm" },
+        { answer: "Neutral Tones", style: "Neutral Tones" }
+      ]
+    },
+    {
+      question: "What is your favorite subject to photograph?",
+      options: [
+        { answer: "Landscapes", style: "Nature" },
+        { answer: "People", style: "Portrait" },
+        { answer: "Urban Scenes", style: "Street" },
+        { answer: "Adventure Activities", style: "Adventure" }
+      ]
+    }
+  ];
+
+  function generateQuiz() {
+    const quizForm = document.getElementById("quiz-form");
+    quizForm.innerHTML = "";
+
+    questions.forEach((q, index) => {
+      const questionDiv = document.createElement("div");
+      questionDiv.classList.add("quiz-question");
+
+      const questionTitle = document.createElement("h5");
+      questionTitle.textContent = q.question;
+      questionDiv.appendChild(questionTitle);
+
+      const optionsDiv = document.createElement("div");
+
+      q.options.forEach(option => {
+        const optionId = `q${index}_${option.style}`;
+        const label = document.createElement("label");
+        label.classList.add("d-block", "my-2");
+        label.innerHTML = `
+          <input type="radio" name="q${index}" value="${option.style}" id="${optionId}" class="me-2">
+          ${option.answer}
+        `;
+        optionsDiv.appendChild(label);
+      });
+
+      questionDiv.appendChild(optionsDiv);
+      quizForm.appendChild(questionDiv);
+    });
+
+    const submitBtn = document.createElement("button");
+    submitBtn.type = "submit";
+    submitBtn.className = "quiz-btn mt-3";
+    submitBtn.textContent = "See My Style";
+    quizForm.appendChild(submitBtn);
+  }
+
+  document.getElementById("quiz-form").addEventListener("submit", function (event) {
+    event.preventDefault();
+    const answers = [];
+    questions.forEach((q, index) => {
+      const selected = document.querySelector(`input[name="q${index}"]:checked`);
+      if (selected) answers.push(selected.value);
+    });
+
+    if (answers.length === questions.length) {
+      const styles = answers.join(", ");
+      document.getElementById("result-style").textContent = `A blend of: ${styles}`;
+      document.getElementById("quiz-result").style.display = "block";
+
+      const prompt = `Photography style: ${styles}`;
+      const imageUrl = `https://via.placeholder.com/1024x600.png?text=${encodeURIComponent(prompt)}`;
+      document.getElementById("generated-image").src = imageUrl;
+      document.getElementById("image-result").style.display = "block";
+    } else {
+      alert("Please answer all the questions!");
+    }
+  });
+
+  generateQuiz();
+</script>
+
+
+            <!-- ------------------------------------------------------------------------- -->
+            <!-- ------------------------------------------------------------------------- -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    window.onload = function () {
+      console.log('Window loaded, initializing AOS unconditionally');
+      AOS.init({
+        duration: 1000,
+        easing: 'ease-in-out',
+        once: false,
+        mirror: true,
+      });
+    };
+  </script>
+</body>
+</html>
